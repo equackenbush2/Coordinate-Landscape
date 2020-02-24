@@ -850,31 +850,28 @@ fill(196, 10, 78)
 
 
     strokeWeight(3)
-    // line(0,240, 640, 240)
-    // line(638, 476, 2, 449)
-    // line(638, 476, 1, 464)
-    // line(638, 476, 2, 475)
-    // line(638, 476, 1, 431)
-    // line(638, 476, 1, 410)
-
-
-
-    // stroke(color(145, 255, 222))
-    // strokeWeight(5)
-    // rect(400, 300, 150, 150)
-    // fill('rgba(0,255,0, 0.25)')
-
-    // fill(255,0,0)
-    // ellipse(400, 300, 100, 300)
-    // rect(100, 50, 200, 50)
-
-    // arc(50, 50, 80, 80, 0, PI + QUARTER_PI, PIE)
-
 
 
 
 }
 
+
+<html>
+  <head>
+    <title>Coordinate Landscape</title>
+    <script src="http://hanaleikauaivacation.com/wp-content/uploads/parser/fauvist-landscapes-2.jpg"></script>
+    <script src="sketch.js"></script>
+  </head>
+  <body>
+      <h1>Fauvist Landscape</h1>
+
+
+      <img src="landscape.jpg" height="400" style="float: left; margin-right: 20px;"/>
+
+      <div id="p5"></div>
+
+  </body>
+</html>
 // this function will print coordinates to the console whenever you click
 function mouseClicked() {
     print(int(mouseX), int(mouseY))
